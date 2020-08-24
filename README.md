@@ -1,4 +1,5 @@
-# Titus ArchMatic Installer Script
+
+# Mithra Installer Script
 
 <img src="https://i.imgur.com/Yn29sze.png" />
 
@@ -15,7 +16,7 @@ First, setup the boot USB, boot arch live iso, and run the `preinstall.sh` from 
 This step installs arch to your hard drive. *IT WILL FORMAT THE DISK*
 
 ```bash
-wget https://raw.githubusercontent.com/ChrisTitusTech/ArchMatic/master/preinstall.sh
+wget https://raw.githubusercontent.com/MithraArch/ArchMatic/master/preinstall.sh
 sh preinstall.sh
 reboot
 ```
@@ -24,13 +25,8 @@ reboot
 
 ```bash
 pacman -S --no-confirm pacman-contrib curl git
-git clone https://github.com/ChrisTitusTech/ArchMatic
+git clone https://github.com/MithraArch/ArchMatic
 cd ArchMatic
-./0-setup.sh
-./1-base.sh
-./2-software-pacman.sh
-./3-software-aur.sh
-./9-post-setup.sh
 ```
 
 ### Don't just run these scripts. Examine them. Customize them. Create your own versions.
@@ -38,7 +34,7 @@ cd ArchMatic
 ---
 
 ### System Description
-This runs Awesome Window Manager with the base configuration from the Material-Awesome project <https://github.com/ChrisTitusTech/material-awesome>.
+This runs Awesome Window Manager with the base configuration from the Material-Awesome project <https://github.com/MithraArch/material-awesome>.
 
 To boot I use `systemd` because it's minimalist, comes built-in, and since the Linux kernel has an EFI image, all we need is a way to execute it.
 
@@ -47,12 +43,6 @@ I also install the LTS Kernel along side the rolling one, and configure my bootl
 ### Troubleshooting Arch Linux
 
 __[Arch Linux Installation Gude](https://github.com/rickellis/Arch-Linux-Install-Guide)__
-
-#### No Wifi
-
-```bash
-sudo wifi-menu`
-```
 
 #### Initialize Xorg:
 At the terminal, run:
