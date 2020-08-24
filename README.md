@@ -1,7 +1,7 @@
 
 # Mithra Installer Script
 
-<img src="https://i.imgur.com/Yn29sze.png" />
+<img src="https://imgur.com/gallery/fsn3Ajo.png" />
 
 This README contains the steps I do to install and configure a fully-functional Arch Linux installation containing a desktop environment, all the support packages (network, bluetooth, audio, printers, etc.), along with all my preferred applications and utilities. The shell scripts in this repo allow the entire process to be automated.)
 
