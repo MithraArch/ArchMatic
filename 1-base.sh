@@ -23,11 +23,9 @@ PKGS=(
 
     # --- Setup Desktop
         'awesome'               # Awesome Desktop
-        'xfce4-power-manager'   # Power Manager 
         'rofi'                  # Menu System
         'picom'                 # Translucent Windows
         'xclip'                 # System Clipboard
-        'gnome-polkit'          # Elevate Applications
         'lxappearance'          # Set System Themes
 
     # --- Login Display Manager
@@ -37,8 +35,7 @@ PKGS=(
     # --- Networking Setup
         'wpa_supplicant'            # Key negotiation for WPA wireless networks
         'dialog'                    # Enables shell scripts to trigger dialog boxex
-        'openvpn'                   # Open VPN support
-        'networkmanager-openvpn'    # Open VPN plugin for NM
+        'network-manager'           # Network Manager
         'network-manager-applet'    # System tray icon/utility for network connectivity
         'libsecret'                 # Library for storing passwords
     
@@ -48,22 +45,7 @@ PKGS=(
         'pulseaudio'        # Pulse Audio sound components
         'pulseaudio-alsa'   # ALSA configuration for pulse audio
         'pavucontrol'       # Pulse Audio volume control
-        'pnmixer'           # System tray volume control
-
-    # --- Bluetooth
-        'bluez'                 # Daemons for the bluetooth protocol stack
-        'bluez-utils'           # Bluetooth development and debugging utilities
-        'bluez-firmware'        # Firmwares for Broadcom BCM203x and STLC2300 Bluetooth chips
-        'blueberry'             # Bluetooth configuration tool
-        'pulseaudio-bluetooth'  # Bluetooth support for PulseAudio
     
-    # --- Printers
-        'cups'                  # Open source printer drivers
-        'cups-pdf'              # PDF support for cups
-        'ghostscript'           # PostScript interpreter
-        'gsfonts'               # Adobe Postscript replacement fonts
-        'hplip'                 # HP Drivers
-        'system-config-printer' # Printer setup  utility
 )
 
 for PKG in "${PKGS[@]}"; do
