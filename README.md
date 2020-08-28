@@ -16,8 +16,8 @@ First, setup the boot USB, boot arch live iso, and run the `preinstall.sh` from 
 This step installs arch to your hard drive. *IT WILL FORMAT THE DISK*
 
 ```bash
-wget https://raw.githubusercontent.com/MithraArch/ArchMatic/master/preinstall.sh
-sh preinstall.sh
+wget https://raw.githubusercontent.com/MithraArch/ArchMatic/master/0-Mithra-Pre-Install.sh
+sh 0-Mithra-Pre-Install.sh
 reboot
 ```
 
