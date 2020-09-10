@@ -19,18 +19,14 @@ PKGS=(
 
     # UTILITIES -----------------------------------------------------------
 
-    'i3lock-fancy'              # Screen locker
-    #'libreoffice'                # Office Alternative
 
-    'brave'         # Brave
-    
+    'libreoffice'                # Office Alternative
+    'brave-nightly-bin'          # Brave
+
 
     # THEMES --------------------------------------------------------------
 
     'lightdm-webkit-theme-aether'   # Lightdm Login Theme - https://github.com/NoiSek/Aether#installation
-    'materia-gtk-theme'             # Desktop Theme
-    'papirus-icon-theme'            # Desktop Icons
-    'capitaine-cursors'             # Cursor
 )
 
 
